@@ -6,12 +6,18 @@ public class SingleLinkedListDemo {
        LinkListDemo linklist=new LinkListDemo();
 //       linklist.addNode(2);
        linklist.addHead(1);
-       System.out.println(linklist);
+       linklist.display();
        linklist.addHead(2);
        linklist.addHead(3);
+       linklist.display();
+       linklist.deleHead();
+       linklist.display();
+       linklist.addLast(5);
+       linklist.display();
+       linklist.delete(1);
+       linklist.display();
 
 
-       System.out.println(linklist);
    }
 
 
